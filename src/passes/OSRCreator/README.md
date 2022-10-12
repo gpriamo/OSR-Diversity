@@ -1,0 +1,1 @@
+USAGE: `opt -S -load ./OSRCreator/OSRCreator.so -osr-creator -instrument-func=<FunctionToInstrument> -instrument=<FunctionPointsToInstrument> -clones=<NrOfClones> -o <output.ll> <input.ll>`
