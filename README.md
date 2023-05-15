@@ -3,8 +3,8 @@ This is the home of `osr-diversity`: a compiler-based automated system capable o
 
 The purpose of this system is to provide dynamic diversity (i.e. the program is kept in a single version, but its executions are diverse) features to an existing `C` program by relying on a technique known as _on-stack replacement_.
 
-The design behind this system is described in the paper _Principled Composition of Function Variants for Dynamic
-Software Diversity and Program Protection_ which appeared in the [ACM ASE 2022](https://conf.researchr.org/home/ase-2022) conference.
+The design behind this system is described in the paper [_Principled Composition of Function Variants for Dynamic
+Software Diversity and Program Protection_](https://dl.acm.org/doi/abs/10.1145/3551349.3559553) which appeared in the [ACM ASE 2022](https://conf.researchr.org/home/ase-2022) conference.
 
 ## Quick tutorial
 1. Promote the stack variables in your program using the stack variables promotion pass located in `./src/passes/StackVaraPromotion/`
