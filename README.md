@@ -1,5 +1,5 @@
 # OSR-Diversity
-This is the home of `osr-diversity`: a compiler-based automated system capable of transforming a `C` program to realize continuous transfers of control and program state among function variants as they run.
+This is the home of `osr-diversity`: a compiler-based automated system capable of transforming a `C` program to have it realize continuous transfers of control and program state among function variants as they run.
 
 The purpose of this system is to provide dynamic diversity (i.e. the program is kept in a single version, but its executions are diverse) features to an existing `C` program by relying on a technique known as _on-stack replacement_.
 
